@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.OtpActivity">
+
+
+         <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_130sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/c1"
+        android:background="#EFF7FE">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/logo"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="@dimen/_90sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/logo"/>
+         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_250sdp"
+            android:background="@drawable/rectanglebg"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/c1">
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="@string/verify_your_number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_17sdp"
+                android:textStyle="bold"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Enter the 4-digit code sent to you on your
+Mobile Number"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+            <in.aabhasjindal.otptextview.OtpTextView
+                android:id="@+id/otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_45sdp"
+                android:foregroundGravity="center"
+                android:layout_marginRight="@dimen/_30sdp"
+                app:bar_enabled="true"
+                app:bar_height="@dimen/_1sdp"
+                app:height="@dimen/_34sdp"
+                app:layout_constraintTop_toBottomOf="@+id/txt3"
+                app:length="4"
+                app:otp_text_size="@dimen/_19ssp"
+                app:width="@dimen/_50sdp" />
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:background="@drawable/rectanglelogin"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_17sdp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/otp" />
+
+            <TextView
+                android:id="@+id/txtResend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:gravity="center"
+                android:text="Resend Code"
+                android:textColor="@color/black"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textSize="@dimen/_12ssp"
+                app:layout_constraintTop_toBottomOf="@+id/btnsubmit" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

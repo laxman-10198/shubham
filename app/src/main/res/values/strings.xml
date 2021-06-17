@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">Online Directory(Provider)</string>
+    <string name="personal_data_edit_profile">Personal Data/Edit Profile</string>
+    <string name="manage_informations">Manage information</string>
+    <string name="change_password">Change Password</string>
+    <string name="faq">FAQ</string>
+    <string name="terms_and_condition">Terms and Conditions</string>
+    <string name="personal_data">Personal Data</string>
+    <string name="first_name1">First Name</string>
+    <string name="last_name">Last name</string>
+    <string name="email_id1">Email ID</string>
+    <string name="myhtml"></string>
+
+    <string name="enter_address">Address</string>
+    <string name="enter_mobile_number">Mobile no.</string>
+    <string name="zip_code">Zip Code</string>
+    <string name="enter_your_registered_e_mail_id">Enter your Registered e-mail id</string>
+    <string name="confirm_password1">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_your_e_mail_id">Enter your e-mail id</string>
+    <string name="enter_the_4_digit_code_sent_to_your_email_id">Enter the 4-digit code sent to you on your
+mial id blackbiz****@gmail.com</string>
+
+    <string name="resend_code">Resend Code</string>
+    <string name="submit">Submit</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="contact_us">Contact us</string>
+    <string name="loeum_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry">Loeum ipsum is simply dummy text of the printing and typesetting industry</string>
+    <string name="name">Name</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="website_logo">Website logo</string>
+    <string name="website">Website</string>
+    <string name="details">Details</string>
+    <string name="opening_time">Opening Time</string>
+    <string name="closing_time">Closing Time</string>
+    <string name="averages_charges">Average Charges</string>
+    <string name="main_banner">Main Banner</string>
+    <string name="second_banner">Banner Second</string>
+    <string name="banner_third">Banner Third</string>
+    <string name="choose_file">Choose File</string>
+    <string name="lorem_ipsum_is_simply">Lorem Ipsum is simply</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_your_number">Verify Your Number</string>
+    <string name="sign_up1">Sign Up</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_n_of_the_printing_and_typesetting_industry">Lorem Ipsum is simply dummy text \n of the printing and typesetting industry.</string>
+    <string name="contact_us1">Contact Us</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book_it_has_survived_not_only_five_centuries_but_also_the_leap_into_electronic_typesetting_remaining_essentially_unchanged_it_was_popularised_in_the_1960s_with_the_release_of_letraset_sheets_containing_lorem_ipsum_passages_and_more_recently_with_desktop_publishing_software_like_aldus_pagemaker_including_versions_of_lorem_ipsum_lorem_ipsum_is_simply_dummy_text_of_the_printing_and_typesetting_industry_lorem_ipsum_has_been_the_industry_s_standard_dummy_text_ever_since_the_1500s_when_an_unknown_printer_took_a_galley_of_type_and_scrambled_it_to_make_a_type_specimen_book_it_has_survived_not_only_five_centuries_but_also_the_leap_into_electronic_typesetting_remaining_essentially_unchanged_it_was_popularised_in_the_1960s_with_the_release_of_letraset_sheets_containing_lorem_ipsum_passages_and_more_recently_with_desktop_publishing_software_like_aldus_pagemaker_including_versions_of_lorem_ipsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+    <string name="_1_what_is_elbatos_terms_and_conditions_policy_how_dose_it_work">1. What is Elbatos Terms and conditions Policy? How dose it work</string>
+    <string name="check_internet" />
+    <string name="no_internet">No internet</string>
+    <string name="enter_domain_name">Enter Domain Name</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email1">Enter Email</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="first_name2">First Name</string>
+    <string name="last_name1">Last Name</string>
+    <string name="email_id2">Email ID</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="address1">Address</string>
+    <string name="zipcode1">ZipCode</string>
+    <string name="_2_to_abc_product_to_elbatos_please_follow_these_steps">2. To abc product to Elbatos, Please follow these steps</string>
+    <string name="_3_why_has_my_return_been_lorem_ipsum_dummy">3. Why has my return been lorem ipsum dummy</string>
+    <string name="_4_why_have_phasellus_eget_elementum_ipsum_integer_sed_maximus">4. Why have phasellus eget elementum ipsum. Integer sed maximus ?</string>
+    <string name="_5_how_long_would_it_take_me_to_receive_the_refund_of_the_returned_product">5. How long would it take me to receive the refund of the returned product?</string>
+    <string name="_6_how_do_lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit">6. How do Lorem ipsum dolor sit amet, consectetur adipiscing elit ?</string>
+    <string name="_7_dose_elbatos_suspendisse_quam_enim_malesuada_eget">7. Dose elbatos Suspendisse quam enim, malesuada eget ?</string>
+    <string name="_8_what_is_no_questions_asked_returns">8. What is no Questions Asked Returns</string>
+    <string name="_9_to_abc_product_to_elbatos_please_follow_these_steps">9. To abc product to Elbatos, Please follow these steps</string>
+    <string name="enter_email2">Enter Email</string>
+    <string name="enter_website_link">Enter Website Link</string>
+    <string name="enter_details">Enter Details</string>
+    <string name="enter_opening_time">Enter Opening Time</string>
+    <string name="enter_closing_time">Enter Closing Time</string>
+    <string name="enter_average_charges">Enter Average Charges</string>
+    <string name="current_password">Current Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name2">Last Name</string>
+    <string name="email_id">Email ID</string>
+    <string name="mobile_no1">Mobile no.</string>
+    <string name="address">Address</string>
+    <string name="zipcode">ZipCode</string>
+    <string name="password"> New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="enter_mobile_number1">Enter Mobile Number</string>
+    <string name="enter_business_name">Enter Business Name</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="enter_zip_code">Enter Zip Code</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_register">Already Register ?</string>
+    <string name="sign_in2">Sign In</string>
+    <string name="lorem_ipsum_is_simply_dummy1">Lorem Ipsum is simply dummy</string>
+    <string name="lorem_ipsum_is_simply_dummy2">Lorem Ipsum is simply dummy</string>
+    <string name="lorem_ipsum_is_simply_dummy3">Lorem Ipsum is simply dummy</string>
+    <string name="lorem_ipsum_is_simply_dummy4">Lorem Ipsum is simply dummy</string>
+    <string name="lorem_ipsum_is_simply_dummy5">Lorem Ipsum is simply dummy</string>
+    <string name="trial_period_15_days">Trial Period (15 Days)</string>
+    <string name="subscription_trial_period_15_days">Subscription/Trial Period (15 Days)</string>
+    <string name="subsription_plan">Subsription Plan</string>
+    <string name="_59">$59</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_do_eiusmod_tempor_incididunt_ut_labore_et_dolore_magna_aliqua_ut_enim_ad_minim_veniam_quis_nostrud_exercitation_ullamco_laboris_nisi_ut_aliquip_ex_ea_commodo_consequat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    />
+
+
+
+    <string-array name="brew_array">
+        <item>Cappuccino</item>
+        <item>Espresso</item>
+        <item>Mocha</item>
+        <item>Caffè Americano</item>
+        <item>Cafe Zorro</item>
+    </string-array>
+
+</resources>

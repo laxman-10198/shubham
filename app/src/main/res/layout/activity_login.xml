@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/_55sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/c1"
+        android:background="#EFF7FE">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/txt1"
+        android:textColor="@color/red"
+        android:textSize="@dimen/_30sdp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/logo"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="@dimen/_40sdp"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
+        android:src="@drawable/logo"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@+id/c1"
+        android:background="@drawable/rectanglebg"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_210sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="@dimen/_17sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:id="@+id/txt2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email ID"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_22sdp"
+            app:layout_constraintTop_toBottomOf="@+id/txt2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:id="@+id/txt3"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email ID"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:singleLine="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/txt3"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_22sdp"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:textSize="@dimen/_12sdp"
+            android:textColor="@color/black"
+            android:id="@+id/txt4"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textSize="@dimen/_13ssp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:singleLine="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/txt4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:id="@+id/password"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/forgotpassword"
+            android:text="Forgot Password?"
+            android:textColor="#007BFF"
+            android:textSize="@dimen/_12ssp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            app:layout_constraintTop_toBottomOf="@+id/password"
+            app:layout_constraintRight_toRightOf="parent"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_17sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            app:layout_constraintTop_toBottomOf="@+id/forgotpassword"
+            android:background="@drawable/rectanglelogin"
+            android:textColor="@color/black"
+            android:text="Sign In"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/createaccount"
+            android:text="Create Account"
+            android:textSize="@dimen/_12sdp"
+            android:gravity="center"
+            android:textColor="#007BFF"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintTop_toBottomOf="@+id/login"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
